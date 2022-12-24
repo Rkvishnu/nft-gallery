@@ -1,27 +1,53 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+#  NFT -Gallery 
+This is a simple Blockchian project  built with Nextjs ,Tailwind-CSS and ALchemy NFT-api.
+Where user can find the details about the NFT listed on opensea.io ,rarible.com or any other nft marketplace.
 
-## Deploy your own
+User have two options to fetch the nftdetails :
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+#1
+user can find the nft details by providing nft owner's contract address 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+#2
+user can find the nft details by providing nft collection's contract address
 
-## How to use
+ 
+## Run Locally
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Clone the project
 
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+  git clone  https://github.com/Rkvishnu/nft-gallery.git
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Go to the project directory
+
+```bash
+  cd nft-gallery
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+Or
+
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+Take addresses from Opensea.io
+
+```bash
+  NFT Owner's Wallet address :
+```
+```bash
+NFT collection Contract address :
+```
